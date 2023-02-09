@@ -4,6 +4,7 @@ public class BankMain {
 
 	public static void main(String[] args) {
 
+		//instance of bank
 		Bank a = new BankA(); 
 		Bank b = new BankB();
 		Bank c = new BankC();
