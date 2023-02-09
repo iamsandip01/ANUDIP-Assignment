@@ -18,7 +18,7 @@ public class DuplicateValues {
         {
             for (int j = i+1; j <arr.length; j++)//select next string for compare
             {
-                if((arr[i]).equals(arr[j]) && i != j )//using '.equale' for comparing two strings                {
+                if((arr[i]).equals(arr[j]) && i != j )//using '.equale' for comparing two strings
                     System.out.println("Duplicate Element is : "+arr[j]); //if duplicate then print that string
             }
                 
